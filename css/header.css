@@ -1,0 +1,133 @@
+.header{
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 9px 6px -3px rgba(26, 26, 26, 0.77);
+    -webkit-box-shadow: 0px 9px 6px -3px rgba(32, 32, 32, 0.77);
+    -moz-box-shadow: 0px 9px 6px -3px rgba(24, 24, 24, 0.77);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 98px;
+    margin-left: 180px;
+    margin-right: 10px;
+}
+
+.logo-desktop {
+    display: block;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 180px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 16px;
+    margin: 0 20px;
+    line-height: 100px;
+    text-transform: capitalize;
+    width: max-content;
+    font-weight: 600;
+}
+
+.nav-menu-link:hover{
+    color: #001E76;
+}
+
+.nav-toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px){
+    .header{
+       height: 60px;
+       background-color: black;
+       box-shadow: none;
+       -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+    }
+
+    .logo{
+        display: flex;
+        line-height: 46px;
+    }
+
+    .logo img{
+        height: auto;
+        margin-left: 27px;
+        margin-right: 10px;
+        
+    }
+
+    .logo-desktop {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: block;
+    }
+    
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+        list-style: none;
+        background-color: white;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+    }
+    
+    .nav-menu-item{
+        line-height: 80px;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav-menu_visible{
+        left: 0;
+    }
+
+
+}

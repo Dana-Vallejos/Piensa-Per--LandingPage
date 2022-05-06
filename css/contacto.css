@@ -1,0 +1,92 @@
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    margin-top: 40px;
+
+}
+
+.contact-section-info{
+    width: 50%;
+    height: 100%;
+}
+
+.contact-section h1{
+    text-align: center;
+    font-size: 48px;
+}
+
+.contact-section p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    padding: 40px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-form{
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-form-text{
+    display: block;
+    font-family: 'Rozha One';
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #F4F4F4;
+    padding: 20px 40px;
+    color: black;
+    outline: none;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #001E76;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+    margin: 40px;
+    float: none;
+    text-align: center;
+    border: 2px solid black;
+    background: white;
+    padding: 12px 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background-color: #001E76;
+    color: white;
+    border: 2px solid #001E76;
+}
+
+@media (max-width: 1880px){
+    .contact-section-info{
+        width: 63%;
+    }
+}
+
+@media (max-width: 1024px){
+    .contact-section-info{
+        width: 85%;
+    }
+}

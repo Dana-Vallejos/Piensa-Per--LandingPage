@@ -1,0 +1,102 @@
+.container-our-app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin-top: 40px;
+}
+
+.content-info-our-app{
+    width: 50%;
+    height: 100%;
+}
+
+.content-info-our-app .option-text{
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+}
+
+.content-info-our-app .option-text h2{
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 100px;
+    color: #001E76;
+    cursor: pointer; 
+}
+
+.content-info-our-app .option-text h2:nth-child(1){
+    border-bottom: 4px solid #001E76;
+}
+
+.content-info-our-app .text{
+    width: 100%;
+    padding: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content-info-our-app .text .op-text{
+    padding: 30px;
+}
+
+.content-info-our-app .text .op-text h1{
+    text-align: center;
+    color: #001E76;
+    font-size: 48px;
+    line-height: 91px;
+    
+}
+
+.content-info-our-app .text .op-text p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.content-info-our-app .text .op-text:nth-child(2){
+    display: none;
+}
+
+.conteiner-info-our-app{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: #F4F4F4;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.content-info-our-app .text .op-text .conteiner-info-our-app p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    padding: 20px;
+    color: black;
+    font-size: 24px;
+}
+
+.conteiner-info-our-app .fa{
+    font-size: 40px;
+    padding: 30px;
+    color: #001E76;
+}
+
+@media (max-width: 1880px){
+    .content-info-our-app{
+        width: 70%;
+    }
+}
+
+@media (max-width: 1024px){
+    .content-info-our-app{
+        width: 100%;
+    }
+}

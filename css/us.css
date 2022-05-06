@@ -1,0 +1,42 @@
+.us-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 0px;
+}
+
+.box-us-container{
+    width: 50%;
+    height: 100%;
+    padding: 120px 20px;
+}
+
+.box-us-container h1{
+    text-align: center;
+    color: #001E76;
+    font-size: 64px;
+}
+
+.box-us-container h2{
+    text-align: center;
+    color:black;
+    font-size: 48px;
+}
+
+.box-us-container p{
+    font-family: 'Work Sans';
+    text-align: center;
+    color:black;
+    font-size: 24px;
+    padding: 40px 0;
+}
+
+@media (max-width: 1432px){
+    .box-us-container{
+        width: 70%;
+        
+    }
+}
