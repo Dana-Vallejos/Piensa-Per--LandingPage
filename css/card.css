@@ -1,0 +1,147 @@
+.container{
+    width: 100%;
+    height: 1200px;
+    padding: 80px;
+    background: 
+    linear-gradient(
+    rgba(0, 30, 118, 0.87), rgba(0, 30, 118, 0.87)),
+    url("../images/card-image.png") 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0;
+    /* position: relative; */
+    /* z-index: 1;  */
+}
+
+.card-container{
+    width: 100%;
+    height: 100%; 
+    max-width: 1400px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 45px;
+}
+
+.container-info-cards{
+    width: 100%; 
+}
+
+.container-info-cards h2{
+    text-align: center;
+    color:white;
+    font-size: 48px;
+}
+
+.container-info-cards h1{
+    text-align: center;
+    color:white;
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.pricing-table{
+    position: relative;
+    padding-top: 300px;
+}
+
+.pricing-cards{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 360px;
+    margin: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 9px 6px -3px rgba(26, 26, 26, 0.77);
+    -webkit-box-shadow: 0px 9px 6px -3px rgba(32, 32, 32, 0.77);
+    -moz-box-shadow: 0px 9px 6px -3px rgba(24, 24, 24, 0.77);
+    transition: all 0.3s;
+}
+
+.card .card-header{
+    padding: 40px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.card .card-header h3{
+    margin-bottom: 5px;
+    color: black;
+    font-size: 27 px;
+    font-weight: 900;
+}
+
+.card-header .card-price{
+    color: #001E76;
+    margin: 0;
+}
+
+.card-header .card-price span{
+    margin-right: 3px;
+    font-size: 40px;
+    position: relative;
+    bottom: 5px;
+    vertical-align: middle;
+}
+
+.card-list{
+    padding: 30px 8px;
+    list-style: none;
+    border-bottom: 1px solid whitesmoke; 
+}
+
+.card-list li{
+    font-family: 'Work Sans';
+    margin: 12px;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.card-footer{
+    padding: 45px 0;
+}
+
+.card-footer button{
+    padding: 15px 30px;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover{
+    background: white;
+    box-shadow: 0 20px 25px 5px rgba(33, 20, 106, 0.1);
+}
+
+.card:hover .card-header h3,
+.card:hover .card-header {
+    color: #001E76;
+}
+
+.card:hover .card-footer button{
+    background-color: #001E76;
+    color: white;
+    border: 2px solid #001E76;
+}
+
+@media (max-width: 1070px){
+    .container{
+        height: 2050px;
+    }
+}

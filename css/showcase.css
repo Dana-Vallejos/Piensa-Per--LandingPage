@@ -9,7 +9,6 @@
       rgba(0, 0, 0, 0.5)
     ),
     url("../images/showcase-image.png") 50% 50%;
-    /* background:  url("/images/showcase-image.png") 50% 50%; */
     background-size: cover;
     background-repeat: no-repeat;
     display: table;
@@ -46,12 +45,12 @@
 .showcase-button-left{
     margin-top: 40px;
     display: inline-block;
-    position: relative;
+    /* position: relative; */
 }
 
 .showcase-button-left a{
     text-decoration: none;
-    position: relative;
+    /* position: relative; */
     margin: 20px ;
     width: 180px;
     height: 54px;
@@ -63,12 +62,12 @@
 .showcase-button-right{
     margin-top: 40px;
     display: inline-block;
-    position: relative;
+    /* position: relative; */
 }
 
 .showcase-button-right a{
     text-decoration: none;
-    position: relative;
+    /* position: relative; */
     margin: 20px;
     width: 180px;
     height: 54px;
